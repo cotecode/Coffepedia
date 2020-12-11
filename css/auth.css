@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*              NAVBAR               */
+
+.navbar-wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    padding: 3px;
+    background: #2E2E2E;
+}
+
+/*   NAVBAR  ANIMATE */
+
+
+.navbar-wrapper.brown {
+    /* background: rgb(82, 63, 54); */
+    background: #2E2E2E;
+    padding: 3px;
+    text-align: center;
+}
+
+
+/*   NAVBAR  ANIMATE */
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-left: 7px;
+}
+
+a.nav-link.signup-button {
+    margin-left: 5px;
+    background-color: rgb(235, 143, 52);
+    color: #fff !important;
+    border: 2px solid rgb(165, 147, 42);
+    border-radius: 12px;
+    padding: 7px;
+}
+
+a.nav-link.login-button {
+    margin-left: 5px;
+    background-color: #fff;
+    color: rgb(235, 143, 52) !important;
+    border: 2px solid rgb(165, 147, 42);
+    border-radius: 12px;
+    padding: 7px;
+}
+
+
+/*              NABAR-HOVER               */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(207, 191, 174)
+}
+
+a.nav-link.signup-button:hover {
+    background-color: rgb(218, 150, 82);
+    color: white;
+}
+
+a.nav-link.login-button:hover {
+    background-color: rgb(243, 243, 243);
+    color: rgb(235, 143, 52);
+}
+
+/*              NABAR-HOVER               */
+
+.nav-item {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+
+@media (max-width:991px) {
+
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .navbar-wrapper,
+    .navbar-nav.ml-lg-auto {
+        /* background: rgb(82, 63, 54); */
+        background: #2E2E2E;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
+
+
+
+/*              NAVBAR               */
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ REGISTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.register {
+    padding-top: 100px;
+    background: #fff !important;
+    margin-bottom: 5%;
+}
+
+.color {
+    color: #F9A826;
+}
+
+@media (max-width:990px) {
+
+    .register {
+        margin-bottom: 5%;
+    }
+
+    .register h1 {
+        font-size: 35px;
+    }
+
+    .register label,
+    .register input,
+    .register a {
+        font-size: 14px;
+    }
+
+    .register .col-md-12 small {
+        font-size: 10px;
+    }
+
+    .register input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 991px) {
+    .register {
+        margin-bottom: 5%;
+    }
+
+    .register h1 {
+        padding-top: 4%;
+    }
+
+    .row img {
+        padding-top: 10%;
+    }
+
+    .register .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .register .right {
+        -webkit-box-flex: 2;
+        -ms-flex: 2;
+        flex: 2;
+    }
+
+    .register .left {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ END OF REGISTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+footer P {
+    color: #999;
+}
+
+footer h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+footer h2:before {
+    content: '|';
+    color: rgb(235, 143, 52);
+    padding-right: 10px;
+}
+
+.footer-top {
+    background: #111;
+    padding: 60px 0;
+}
+
+footer .segment-first h2 {
+    margin: 10px 0;
+}
+
+footer .segment-second ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer .segment-second ul li {
+    line-height: 30px;
+}
+
+footer .segment-second ul li a {
+    color: #999;
+}
+
+footer .segment-third a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+footer .segment-third a i {
+    font-size: 20px;
+    color: rgb(235, 143, 52);
+    padding: 10px 12px;
+}
+
+footer .segment-third a i:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #2E2E2E !important;
+    color: #fff;
+    padding: 15px;
+    overflow: hidden;
+}
+
+
+@media (max-width:991px) {
+    footer p {
+        font-size: 14px;
+    }
+
+    footer .segment-second ul li a {
+        font-size: 14px;
+    }
+
+    .mb {
+        margin-bottom: 40px;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+    }
+}
+
+
+/* FOOTER */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ LOGIN \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.modal-dialog {
+    height: 80% !important;
+    padding-top: 10%;
+}
+
+.modal-body {
+    height: 80%;
+}
+
+.btn-primary {
+    background-color: rgb(235, 143, 52) !important;
+    outline: none;
+    border: none;
+}
+
+.btn-primary:visited {
+    background-color: rgb(235, 143, 52) !important;
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #fff !important;
+    color: rgb(235, 143, 52);
+    border: 1px solid rgb(235, 143, 52);
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ END OF LOGIN \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */

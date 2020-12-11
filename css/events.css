@@ -1,0 +1,169 @@
+/* JUMBOTRON EVENT */
+.color {
+    color: #ff810a;
+}
+
+.banner-2 {
+    position: relative;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/samuel-pereira-uf2nnANWa8Q-unsplash.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../img/samuel-pereira-uf2nnANWa8Q-unsplash.jpg");
+    background-attachment: fixed;
+    min-height: 50%;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 100px;
+    text-align: left;
+}
+
+.banner-2 .container small {
+    color: rgb(248, 248, 248);
+    background-color: red;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+.banner-2 .container h3 {
+    color: #fff;
+    font-size: 100px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.banner-2 .container h5 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-bottom: 5%;
+}
+
+.banner-2 .container p {
+    color: #fff;
+    font-size: 27.2px;
+    font-size: 1.7rem;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin-bottom: 100px;
+}
+
+.banner-2 .container .row a {
+    position: relative;
+    text-decoration: none;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 180px !important; */
+    border-radius: 5px;
+    border: 2px solid rgb(207, 120, 39) !important;
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-2 .container .row a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgb(207, 120, 39);
+    -webkit-transition: -webkit-transform 200ms ease-in-out;
+    transition: -webkit-transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+}
+
+.banner-2 .container .row a:hover:before,
+.banner-2 .container .row a:focus:before {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+}
+
+@media (max-width:991px) {
+
+    .banner-2 .col-lg h2 {
+        display: none;
+    }
+
+    .banner-2 .navbar-wrapper.brown {
+        padding: 1px 0;
+    }
+
+    .banner-2 .container h3 {
+        font-size: 60px !important;
+    }
+
+    .banner-2 .container h5 {
+        font-size: 21px;
+    }
+
+    .banner-2 .container .row a {
+        font-size: 20px;
+    }
+
+    .banner-2 .col-sm-8 p {
+        font-size: 1.5rem;
+    }
+
+    .banner-2 .col-sm-8 button {
+        margin-top: 5px !important;
+        font-size: 20px !important;
+    }
+}
+
+
+/* END OF  JUMBOTRON  EVENT */
+
+/* HISTORY EVENT */
+
+
+
+@media (min-width:991px) {
+    .sec3 .flex .info.space {
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width:991px){
+    .sec3 .flex .info.rmv {
+        padding-bottom: 10px !important;
+    }
+}
+
+/* END OF HISTORY EVENT */
+
+/* PAGINATION */
+.pagination{
+    padding-bottom: 100px;
+}
+
+.page-link {
+    color: #2E2E2E;
+}
+
+.page-link:hover{
+    color: #2E2E2E;
+}
+
+.page-item.active .page-link {
+    color: #fff;
+    background-color: #2E2E2E;
+    border-color: #2E2E2E;
+}
+
+a.page-link:focus{
+    box-shadow: 0 1px 3px #2E2E2E;
+}
+
+/* END OF PAGINATION */
