@@ -120,10 +120,10 @@ a.nav-link.login-button:hover {
 /*              NAVBAR               */
 
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ REGISTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ AUTH \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
-.register {
+.auth {
     padding-top: 100px;
     background: #fff !important;
     margin-bottom: 5%;
@@ -135,35 +135,35 @@ a.nav-link.login-button:hover {
 
 @media (max-width:990px) {
 
-    .register {
+    .auth {
         margin-bottom: 5%;
     }
 
-    .register h1 {
+    .auth h1 {
         font-size: 35px;
     }
 
-    .register label,
-    .register input,
-    .register a {
+    .auth label,
+    .auth input,
+    .auth a {
         font-size: 14px;
     }
 
-    .register .col-md-12 small {
+    .auth .col-md-12 small {
         font-size: 10px;
     }
 
-    .register input[type="submit"] {
+    .auth input[type="submit"] {
         font-size: 14px;
     }
 }
 
 @media (min-width: 991px) {
-    .register {
+    .auth {
         margin-bottom: 5%;
     }
 
-    .register h1 {
+    .auth h1 {
         padding-top: 4%;
     }
 
@@ -171,7 +171,7 @@ a.nav-link.login-button:hover {
         padding-top: 10%;
     }
 
-    .register .row {
+    .auth .row {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -179,20 +179,20 @@ a.nav-link.login-button:hover {
         flex-wrap: wrap;
     }
 
-    .register .right {
+    .auth .right {
         -webkit-box-flex: 2;
         -ms-flex: 2;
         flex: 2;
     }
 
-    .register .left {
+    .auth .left {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
     }
 }
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ END OF REGISTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ END OF AUTH \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
 
