@@ -77,7 +77,7 @@
     <!--                                       END HEADER SECTION                                          -->
 
     <!--                                          REGISTER SECTION                                          -->
-    <section class="register bg-light">
+    <section class="auth bg-light">
         <div class="container ">
             <h1 class="mb-4"> <span class="color"> Create </span> Your Account</h1>
             <div class="row">
