@@ -101,7 +101,7 @@
     <!--                                       END HEADER SECTION                                          -->
 
     <!--                                          LOGIN SECTION                                          -->
-    <section class="register bg-light">
+    <section class="auth bg-light">
         <div class="container ">
             <h1 class="mb-4"> <span class="color">Login</span> To Your Account</h1>
             <div class="row">
